@@ -1,0 +1,29 @@
+<div class="d-flex justify-content-center align-items-center">
+    <form #form="ngForm" (ngSubmit)="updateBook(form)" class="form-group w-50 mt-3">
+        <h2>Update Book</h2>
+        <div class="my-1">
+            <label for="name" class="form-label">Book Name</label>
+            <input required minlength="3" [(ngModel)]="bookForm.title" #name="ngModel" name="name" type="text" class="form-control" id="name" placeholder="Enter book name">
+            <div class="mt-1 text-danger" *ngIf="name.invalid && name.touched">
+                Write a book name please!
+            </div>
+        </div>
+        <div class="my-1">
+            <label for="author" class="form-label">Author</label>
+            <input [(ngModel)]="bookForm.author" type="text" class="form-control" name="author" id="author" placeholder="Enter author name">
+            <div class="mt-1 text-danger" *ngIf="name.invalid && name.touched">
+                Write an author name please!
+            </div>
+        </div>
+        <div class="my-1">
+            <label for="cost" class="form-label">Cost</label>
+            <input [(ngModel)]="bookForm.cost" type="number" class="form-control" name="cost" id="cost" placeholder="Enter book price">
+            <div class="mt-1 text-danger" *ngIf="name.invalid && name.touched">
+                Write a cost please!
+            </div>
+        </div>
+        <button class="btn btn-warning mt-2" type="submit">Update Book</button>
+    </form>
+
+</div>
+

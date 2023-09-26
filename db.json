@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "author": "Paulo Coelho",
+      "title": "The Alchemist",
+      "cost": 10
+    },
+    {
+      "id": 2,
+      "author": "Yuval Noah Harari",
+      "title": "Sapiens: A Brief History of Humankind",
+      "cost": 20
+    },
+    {
+      "id": 3,
+      "author": "Glennon Doyle",
+      "title": "Untamed",
+      "cost": 30
+    },
+    {
+      "id": 4,
+      "author": "Toni Morrison",
+      "title": "Beloved",
+      "cost": 40
+    },
+    {
+      "id": 5,
+      "author": "Ray Dalio",
+      "title": "Principles",
+      "cost": 50
+    },
+    {
+      "id": 6,
+      "author": "Dale Carnegie",
+      "title": "How to Win Friends and Influence People",
+      "cost": 60
+    },
+    {
+      "id": 7,
+      "author": "Stephen R. Covey",
+      "title": "The 7 Habits of Highly Effective People",
+      "cost": 70
+    }
+  ]
+}
